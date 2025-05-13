@@ -18,42 +18,39 @@ A Java-based automation framework using Selenium WebDriver and TestNG for testin
 - Git
 
 ## 📁 Project Structure
-
+```
 automation_project/
 ├── src/
-│ ├── main/java/ # Application logic helpers and manager
-│ └── test/java/ # TestNG test cases
-├── Profile/ # Browser drivers and user profiles
-├── pom.xml # Maven configuration
-├── .idea/, .project # IDE-related files
-└── README.md # Project documentation
-
+│   ├── main/java/          # Application logic helpers and manager
+│   └── test/java/          # TestNG test cases
+├── Profile/                # Browser drivers and user profiles
+├── pom.xml                 # Maven configuration
+├── .idea/, .project        # IDE-related files
+└── README.md               # Project documentation
+```
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/TomerDev1502/automation-testing-project.git
+```
 
-2. Import the Project
+### 2. Import the Project
+- Open IntelliJ IDEA or Eclipse
+- Import as a **Maven project**
 
-    Open IntelliJ IDEA or Eclipse
+### 3. Install Dependencies
+Maven will automatically download required dependencies via `pom.xml`.
 
-    Import as a Maven project
+### 4. Run the Tests
+- Open the tests under `src/test/java/tests/basic`
+- Right-click the file → Run with TestNG  
+*(or use the terminal to run with Maven if configured)*
 
-3. Install Dependencies
+## 📌 Author
+**Tomer Avrahami**  
+3rd-year Computer Science student at the Jerusalem Multidisciplinary College  
+💡 Passionate about QA, automation, and building robust testing systems.  
+📫 [GitHub](https://github.com/TomerDev1502)
 
-Maven will automatically download required dependencies via pom.xml.
-4. Run the Tests
-
-    Open OldCodeTest.java under src/test/java/tests/basic
-
-    Right-click the file → Run with TestNG
-    (or use the terminal to run with Maven if configured)
-
-📌 Author
-
-Tomer Avrahami
-3rd-year Computer Science student at the Jerusalem Multidisciplinary College
-💡 Passionate about QA, automation, and building robust testing systems.
-📫 GitHub
